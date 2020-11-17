@@ -1,3 +1,3 @@
 # Betadine
 ## FALL 2020
-* [BETADINE Game](https://github.com/TanviMishra/Betadine)
+* [BETADINE Game](https://github.com/TanviMishra/Betadine/BitMapGame)
