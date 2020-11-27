@@ -53,10 +53,6 @@ function setup() {
   frameRate(46);
 }
 function draw() {
-  if (!bgSound.isPlaying()) {
-    	//bgSound.setVolume(0.8);
-  		bgSound.play(); 
-	}
   switch(sceneNumber){
     case 0: scene0(); //all the scenes called using switch statement
             break
@@ -92,6 +88,10 @@ function scene0(){ //instruction page
   if(keyIsPressed== true){
   	 sceneNumber++;
      changeScene(sceneNumber);
+     if (!bgSound.isPlaying()) {
+    	//bgSound.setVolume(0.8);
+  		bgSound.play(); 
+	}
   }
 }
 function scene1(){ //city page
