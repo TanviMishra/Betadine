@@ -5,7 +5,7 @@
 //2. sometimes in the swim scene, the girl char glitches
 
 let aspectRatio = 2.35;
-let screenWidth = 200;
+let screenWidth = 400;
 let sceneNumber =0;
 let tempSceneNumber=0;
 let numberOfStrawberries=5;
